@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>方案篇 · 志愿填报推荐 · 2026广东高考</title>
+<style>
+  @page { size: A4; margin: 15mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 18px; line-height: 1.9; color: #222; max-width: 900px; margin: 0 auto; padding: 20px; text-wrap: pretty; word-break: keep-all; overflow-wrap: break-word; orphans: 2; widows: 2; }
+  p, li, td, th, .box, .warn, .danger, .school-card, .major-card, .q-block, .a-section, .reason, .card, .note, .meta, .cover, .step-guide, .q-header, .q-body { text-wrap: pretty; }
+  nav { background: #1a1a2e; padding: 15px 25px; border-radius: 8px; margin-bottom: 30px; display: flex; flex-wrap: wrap; gap: 10px 20px; }
+  nav a { color: #e0e0e0; text-decoration: none; font-size: 16px; }
+  nav a:hover { color: #fff; border-bottom: 2px solid #ffd700; }
+  nav .current { color: #ffd700; font-weight: bold; }
+  h1 { font-size: 32px; border-left: 6px solid #1a1a2e; padding-left: 14px; margin: 35px 0 20px; }
+  h2 { font-size: 24px; margin: 35px 0 15px; padding-bottom: 8px; border-bottom: 2px solid #1a1a2e; color: #1a1a2e; }
+  h3 { font-size: 20px; margin: 20px 0 10px; color: #333; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; font-size: 16px; }
+  th { background: #1a1a2e; color: #fff; padding: 9px 10px; text-align: left; white-space: nowrap; }
+  td { padding: 9px 10px; border: 1px solid #ddd; }
+  tr:nth-child(even) td { background: #f9f9f9; }
+  .reach { border-left: 5px solid #e67e22; padding: 20px 25px; margin: 20px 0; background: #fef8f2; border-radius: 4px; }
+  .fit   { border-left: 5px solid #2980b9; padding: 20px 25px; margin: 20px 0; background: #f2f7fb; border-radius: 4px; }
+  .safe  { border-left: 5px solid #27ae60; padding: 20px 25px; margin: 20px 0; background: #f3faf6; border-radius: 4px; }
+  .tag-reach { background: #e67e22; color: #fff; padding: 2px 10px; border-radius: 3px; font-size: 14px; font-weight: bold; }
+  .tag-fit   { background: #2980b9; color: #fff; padding: 2px 10px; border-radius: 3px; font-size: 14px; font-weight: bold; }
+  .tag-safe  { background: #27ae60; color: #fff; padding: 2px 10px; border-radius: 3px; font-size: 14px; font-weight: bold; }
+  .school-card { border: 1px solid #ddd; border-radius: 6px; padding: 18px 22px; margin: 15px 0; background: #fff; }
+  .school-card h4 { font-size: 19px; color: #1a1a2e; margin-bottom: 6px; }
+  .school-card .meta { color: #666; font-size: 15px; margin-bottom: 8px; }
+  .school-card .note { color: #888; font-size: 14px; }
+  .divider { text-align: center; color: #aaa; margin: 20px 0; font-size: 20px; }
+  .box { background: #f0f4ff; padding: 20px 25px; border-radius: 6px; margin: 20px 0; }
+  .warn { background: #fff3cd; border-left: 5px solid #ffc107; padding: 20px 25px; margin: 20px 0; border-radius: 4px; }
+  @media print {
+    body { font-size: 14px; } nav { display: none; } h1 { font-size: 24px; } h2 { font-size: 20px; } h3 { font-size: 16px; }
+    table { font-size: 12px; } td { padding: 6px 8px; } .school-card { break-inside: avoid; }
+  }
+  .highlight { background: #ffeaa7; padding: 1px 6px; border-radius: 2px; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">🏠 总导航</a>
+  <a href="rules.html">📋 规则篇</a>
+  <a href="majors.html">🎓 专业篇</a>
+  <span class="current">📊 方案篇</span>
+  <a href="qa.html">💬 问答篇</a>
+  <a href="schools.html">🔬 深度篇</a>
+</nav>
+
+<h1>📊 方案篇：基于82088排位的志愿填报推荐</h1>
+
+<p style="font-size:16px; color:#666; margin-bottom:10px;">数据来源：广东省教育考试院2024-2025年本科普通类（物理）投档数据、各高校招生网。排位比分数更稳定，以下以排位为参考核心。</p>
+<p style="font-size:16px; color:#666; margin-bottom:10px;">方向限定：<strong>计算机/电子信息/电气/自动化等工科优先 ＞ 其他工科 ＞ 理科</strong>。排除中外合作、民办院校（费用高）。</p>
+<p style="font-size:16px; color:#c0392b; margin-bottom:25px;"><strong>🏠 家庭意向：孩子和家长首选省内。以下以广东省内为主力，省外仅保留极少数"万一省内全滑档"的极端兜底选项。</strong></p>
+
+<!-- ============ Overview ============ -->
+<h2>一、整体布局总览</h2>
+
+<table>
+  <tr><th>档位</th><th>排位区间</th><th>志愿数建议</th><th colspan="2">核心院校</th></tr>
+  <tr>
+    <td><span class="tag-reach">冲刺</span></td>
+    <td>55,000 ~ 80,000</td><td style="white-space:nowrap;">8 ~ 10</td>
+    <td style="font-weight:bold;">🇨🇳 省内：</td><td>深圳技术大学、佛山大学、东莞理工学院、广东海洋大学</td>
+  </tr>
+  <tr>
+    <td><span class="tag-fit">稳妥</span></td>
+    <td>80,000 ~ 92,000</td><td style="white-space:nowrap;">15 ~ 20</td>
+    <td style="font-weight:bold;">🇨🇳 省内：</td><td>广东技术师范大学、广东海洋大学、五邑大学</td>
+  </tr>
+  <tr>
+    <td><span class="tag-safe">保底</span></td>
+    <td>92,000 ~ 120,000</td><td style="white-space:nowrap;">15 ~ 20</td>
+    <td style="font-weight:bold;">🇨🇳 省内：</td><td>仲恺农业工程学院、惠州学院、肇庆学院、韶关学院等</td>
+  </tr>
+  <tr>
+    <td><span class="tag-safe">省外兜底</span></td>
+    <td>95,000 ~ 105,000</td><td style="white-space:nowrap;">2 ~ 3</td>
+    <td style="font-weight:bold;color:#888;">🌍 备用：</td><td style="color:#888;">桂林电子科技大学、湖南科技大学（仅极端情况）</td>
+  </tr>
+</table>
+
+<div class="warn">
+  <strong>⚠️ 重要提醒：</strong>
+  <ul>
+    <li>所有"冲刺"志愿组都<strong>必须勾选服从调剂</strong></li>
+    <li>以下排位数据标注了年份。标注"2024"的数据需结合2025年趋势上浮/下调判断</li>
+    <li>同一志愿组内可能有你不想去的专业——提前查组内专业清单，接受不了的组直接不报</li>
+  </ul>
+</div>
+
+<!-- ============ 省内冲刺 ============ -->
+<h2>二、🚀 省内冲刺（排位 55,000 ~ 80,000）</h2>
+
+<div class="school-card">
+  <h4>1. 深圳技术大学 · <span class="tag-reach">冲刺</span></h4>
+  <div class="meta">2025投档排位约 <strong>44,500名</strong> | 地址：深圳坪山</div>
+  <p><strong>招生：</strong>2025年~2,720人。2026年全国招<strong>3,350人</strong>（广东省内2,704人），与2025年持平，无大扩招。新增工业软件专业。</p>
+  <p>82088排位差距约37,000名，权当"彩票"——放前1个志愿，不抱期望。</p>
+</div>
+
+<div class="school-card" style="border-left:4px solid #2980b9;">
+  <h4>2. 深圳职业技术大学（职业本科）· <span class="tag-reach">冲刺</span> 🔥扩招中</h4>
+  <div class="meta">2025投档排位 <strong>59,726名</strong> | 地址：深圳</div>
+  <p><strong>招生：</strong>2024年445人 → 2025年<strong>910人</strong>（+104.5%）→ 2026年全国本科<strong>2,550人</strong>（较2025年+1,380人，<span style="color:#27ae60;font-weight:bold;">增幅118%！</span>）。<strong>大幅扩招很可能拉低排位线</strong>——这对你是重大利好。</p>
+  <p>录取考生100%超特控线。2025最高分617。物理类专业90%为工科。广东省内深圳户籍可能有独立名额（待确认）。</p>
+  <p><span class="tag tag-warn" style="font-size:12px;">注意</span>职业本科≠传统学术型本科。学位证注明"专业学士"，社会认可度仍在建立中。就业导向强、升学通道较窄。</p>
+</div>
+
+<div class="school-card" style="border-left:4px solid #2980b9;">
+  <h4>3. 深圳信息职业技术大学（职业本科）· <span class="tag-reach">冲刺</span> 🔥扩招中</h4>
+  <div class="meta">2025投档排位 <strong>60,409名</strong> | 地址：深圳</div>
+  <p><strong>招生：</strong>2024年无本科 → 2025年首届300人 → 2026年<strong>400人</strong>（+33%）。2026专业从5个扩至12个（含人工智能、半导体装备、智能网联汽车等）。学费6,000元/年。<strong>第一学期后可在专业组内任意转专业</strong>——这个政策非常友好。</p>
+  <p>报到率100%，最高分600。信息类为主，与深圳IT产业对口。</p>
+  <p><span class="tag tag-warn" style="font-size:12px;">注意</span>同样为职业本科。2025年才首届，校友资源和口碑为零。</p>
+</div>
+
+<div class="school-card">
+  <h4>4. 深圳北理莫斯科大学 · <span class="tag-fit">排位刚好</span> ❌但学费排除</h4>
+  <div class="meta">2025最低排位 <strong>71,348名</strong> | 地址：深圳龙岗 | 学费：单学籍5万/年，双学籍7万/年</div>
+  <p><strong>排位71,348名</strong>恰好落在你的冲-稳交界内，且在深圳。但家庭不愿多花钱，<strong>直接排除</strong>。</p>
+</div>
+
+<div class="school-card">
+  <h4>2. 佛山大学（原佛山科学技术学院）</h4>
+  <div class="meta"><span class="tag-reach">冲刺</span> 计算机最低排位 <strong>63,175</strong>（2025）| 电子信息 <strong>65,619</strong>（2025）| 地址：佛山</div>
+  <p><strong>招生：</strong>2024年物理类<strong>3,563人</strong>（+460人）→ 2025年约3,400人（基本持平）。<strong>2024年更名"大学"后最低排位从约14.8万跃升至9.55万（↑5.3万位！），是更名拉动效应最强的案例。</strong>2025年总计划5,065人，理工农医类占比73.35%。</p>
+  <p><strong>推荐专业组：</strong>201组（物+化），含计算机、电子、电气、自动化、集成电路、物联网。热门工科排位6.3-6.7万，但组内其他工科约7-9万。</p>
+  <p>2024更名带来的排位飞跃已基本消化，2025年趋于稳定。如果你愿意接受组内调剂到非计算机专业（光电/化工等），这是一个值得重点放的冲刺选项。</p>
+</div>
+
+<div class="school-card">
+  <h4>3. 东莞理工学院</h4>
+  <div class="meta"><span class="tag-reach">冲刺</span> 计算机类最低排位 <strong>63,807</strong>（2025）| 电子信息 <strong>64,802</strong>（2025）| 地址：东莞松山湖</div>
+  <p><strong>招生：</strong>2024年物理类<strong>3,382人</strong> → 2025年<strong>3,515人</strong>（<span style="color:#27ae60;">+133人</span>，温和扩招）。2025年最低排位约11.9万。仍是"学院"建制，更名前景不明。</p>
+  <p><strong>推荐专业组：</strong>201组/202组（物+化），含计算机、软件、电子、电气、机器人、通信。东莞松山湖有华为终端总部，地段优势明显。注意：非东莞户籍考生分数略高于东莞户籍（差约3-5分/2000名）。</p>
+</div>
+
+<div class="school-card">
+  <h4>4. 广东海洋大学</h4>
+  <div class="meta"><span class="tag-reach">冲刺</span> 计算机最低排位 <strong>77,425</strong>（2025）| 软件工程 <strong>81,668</strong>（2025）| 地址：湛江</div>
+  <p><strong>招生：</strong>2024年物理类<strong>6,448人</strong> → 2025年<strong>6,947人</strong>（<span style="color:#27ae60;">+499人</span>，明显扩招！阳江校区从822→928人）。<strong>扩招导致排位微降</strong>——2024年最低排位约13.9万→2025年约15.1万，说明扩招在稀释排位线。对你是利好。</p>
+  <p>计算机排位77,425（偏紧冲刺）；软件工程81,668几乎就是你的位次，属于"冲-稳交界"最精准的一个点。推荐：计算机科学与技术（国家级一流本科专业）、软件工程、物联网工程。注意：湛江地理位置偏远。</p>
+</div>
+
+<div class="school-card" style="border-left:4px solid #8e44ad;">
+  <h4>5. 广东工业大学（广州本部）228组 · <span class="tag-reach">冲刺</span> 🏆</h4>
+  <div class="meta">2025最低排位 <strong>69,261名</strong> | 选科：物理+化学 | 地址：广州大学城</div>
+  <p><strong>这是你能碰到的唯一一个广工本部普通批专业组。</strong>组内含材料成型/金属材料/环境/生物等。<strong>⚠ 是工科但非计算机电子</strong>——如果接受材料/环境方向，69,261排位距你仅12,000名，值得一冲。毕业证是广工本部。</p>
+  <p>另外：广工揭阳校区202组最低51,141名，差距太大，冲不了。</p>
+</div>
+
+<div class="school-card" style="border-left:4px solid #27ae60;">
+  <h4>6. 广东财经大学 211组 · <span class="tag-reach">冲刺</span> 🔥 广州·计算机！</h4>
+  <div class="meta">2025最低排位 <strong>72,264名</strong> | 选科：物理+化学 | 地址：广州</div>
+  <p><strong>这个组是重大发现——广州+计算机！</strong>211组内含：计算机科学与技术(50人)、软件工程(86人)、数据科学与大数据技术(97人)、人工智能(100人)、统计学、数学与应用数学。全部是目标方向！</p>
+  <p>排位72,264距你82,088仅差约10,000名——冲刺档中最有希望的一个。<strong>但注意：</strong>组内专业全是热门，实际录取排位高于组线。组内最低分556分，计算机可能要到558-560分。服从调剂后可能被调到统计学/数学。</p>
+</div>
+
+<div class="school-card">
+  <h4>7. 华南农业大学 213/215组 · <span class="tag-reach">冲刺</span></h4>
+  <div class="meta">213组(物+不限)最低排位 <strong>61,613</strong> | 215组(物+化)最低排位 <strong>60,375</strong> | 地址：广州天河</div>
+  <p><strong>双一流。</strong>213组含城乡规划/建筑学（偏设计），215组含水水利水电/土木智能建造（偏工程）。排位6万左右属较难冲刺，但华农是双一流标签，若接受城乡规划/水利方向可一搏。注意：热门工科（计算机/电子/电气）在华农排位需3.5-4万，碰不到。</p>
+</div>
+
+<!-- ============ 省内稳妥 ============ -->
+<h2>三、🎯 省内稳妥（排位 80,000 ~ 92,000）</h2>
+
+<div class="school-card">
+  <h4>1. 广东技术师范大学</h4>
+  <div class="meta"><span class="tag-fit">稳妥</span> 计算机(师范) <strong>81,412</strong>（2024）| 电子信息 <strong>82,830</strong>（2024）| 通信工程 <strong>86,288</strong>（2024）| 地址：广州</div>
+  <p><strong>招生：</strong>2024年物理类<strong>3,594人</strong> → 2025年<strong>3,876人</strong>（<span style="color:#27ae60;">+282人</span>，扩招7.8%）。理工科已全面超特控线。热门工科电气8.5万、计算机8.1万（2024年排位）。</p>
+  <p><strong>这是82088排位最匹配的学校之一。</strong>计算机科学学院和电子信息学院都在你的排位区间内。地处广州，师范属性带来教师编通道。</p>
+</div>
+
+<div class="school-card">
+  <h4>2. 广东海洋大学</h4>
+  <div class="meta"><span class="tag-fit">稳妥</span> 软件工程 <strong>81,668</strong>（2025）| 物联网工程 <strong>83,881</strong>（2025）| 电气 <strong>88,431</strong>（2025）| 地址：湛江</div>
+  <p>软件工程和你的排位高度匹配。电气工程及其自动化排位88,431也很稳妥。湛江地理位置偏但海洋/水产特色强。如果不介意地址，是稳妥档的最佳选择之一。</p>
+</div>
+
+<div class="school-card">
+  <h4>3. 五邑大学</h4>
+  <div class="meta"><span class="tag-fit">稳妥</span> 计算机最低排位约 <strong>79,000</strong>（2024）| 软件工程约 <strong>84,000</strong>（2024）| 地址：江门</div>
+  <p><strong>招生：</strong>2024年物理类<strong>3,740人</strong>（<span style="color:#27ae60;">+824人，大幅扩招！</span>）→ 2025年约4,000+人（继续扩招260+人）。扩招稀释了排位压力——超特控线考生占比从13.7%跃升至30.9%。</p>
+  <p><strong>无更名计划</strong>（省教育厅已明确"从严控制"），短期内仍是"学院"。分江门市内/市外招生，市外分略高。江门位于珠三角西部，交通便利。数据为2024年，2025年官方排位公布后请校准。</p>
+</div>
+
+<!-- ============ 省内保底 ============ -->
+<h2>四、✅ 省内保底（排位 92,000 ~ 138,000）</h2>
+
+<div class="school-card">
+  <h4>1. 仲恺农业工程学院 · <span class="tag-safe">保底</span> · 广州</h4>
+  <div class="meta">电气 <strong>92,583</strong>（2025）| 计算机 <strong>96,638</strong>（2025）| 电子 <strong>96,484</strong>（2025）| 地址：广州海珠/白云</div>
+  <p><strong>招生：</strong>2024年物理类2,381人 → 2025年<span style="color:#c0392b;">1,594人（缩招34%）</span>。但2024年10月省教育厅已公示更名"仲恺农业工程大学"，2026年若获批，预计扩招至7,412人（+5,818人）。</p>
+  <p><strong>保底首选。</strong>地处广州。计算机/电气/电子全在保底区间。更名若成功，毕业证升级。</p>
+</div>
+
+<div class="school-card">
+  <h4>2. 广东第二师范学院 · <span class="tag-safe">保底</span> · 广州</h4>
+  <div class="meta">计算机(师范) <strong>100,717</strong>（2025）| 电子信息 <strong>101,676</strong>（2025）| 软件工程 <strong>103,208</strong>（2025）| 地址：广州花都/海珠</div>
+  <p>公办本科，地处广州。工科全在10万左右，安全边际充裕。师范底子，学风扎实。数据科学、网络工程也都有。</p>
+</div>
+
+<div class="school-card" style="border-left:4px solid #2980b9;">
+  <h4>3. 广州航海学院 201组 · <span class="tag-safe">保底</span> · 广州 🔑</h4>
+  <div class="meta">2025最低排位 <strong>131,794</strong> | 选科：物理+化学 | 地址：广州黄埔</div>
+  <p><strong>招生：</strong>201组招992人，含电气工程、软件工程、计算机、人工智能、车辆工程、船舶工程等工科。排位13.2万远低于你的82,088——<strong>稳到不能再稳</strong>。203组（不限选科）排位138,349。</p>
+  <p><strong>更名：</strong>"广州交通大学"仍在筹建（5校合力，总投近100亿），新校区2025年10月已开工。最快2027年才能提交更名申请——<strong>2026年仍以现名招生，是更名前低分窗口期</strong>。若更名成功，含金量将大幅提升。目前无硕士点。</p>
+</div>
+
+<div class="school-card">
+  <h4>4. 广东石油化工学院 · <span class="tag-safe">保底</span></h4>
+  <div class="meta">电气(卓越班) <strong>114,681</strong>（2025）| 计算机 <strong>116,686</strong>（2025）| 地址：茂名</div>
+  <p>中石油中海油三方共建，石油化工+电气+自动化就业有保障。电气工程为国家级一流专业。排位远低于你，极稳。</p>
+</div>
+
+<div class="school-card">
+  <h4>5. 惠州学院 · <span class="tag-safe">保底</span></h4>
+  <div class="meta">电气 <strong>~106,000</strong>（2024）| 计算机 <strong>~117,000</strong>（2024）| 电子创新班 <strong>98,270</strong>（2024）| 地址：惠州</div>
+  <p>珠三角东岸，临近深圳。所有工科要求物+化，你完全符合。数据为2024年，2025排位需校准。</p>
+</div>
+
+<div class="school-card">
+  <h4>6. 肇庆学院 / 韶关学院 · <span class="tag-safe">深保底</span></h4>
+  <div class="meta">肇庆：计算机 <strong>116,687</strong>（2024）| 韶关：计算机 <strong>129,234</strong>（2024）</div>
+  <p>兜底网。两校计算机/电子/电气都有。排位远低于你，<strong>前面40个全滑档也能接住</strong>。</p>
+</div>
+
+<!-- ============ 省外（极端备用） ============ -->
+<h2>五、🌍 省外：仅1所，极端兜底</h2>
+
+<div class="school-card">
+  <h4>桂林电子科技大学（四电四邮之一）· <span class="tag-safe">省外兜底</span></h4>
+  <div class="meta">2025物+不限组最低排位 <strong>95,631</strong> | 地址：桂林</div>
+  <p><strong>招生：</strong>2024年广东物理类123人 → 2025年~158人（<span style="color:#27ae60;">+35人，+28.5%</span>）。大幅扩招拉低了排位门槛。</p>
+  <p><strong>电子信息特色鲜明。</strong>原电子工业部直属，珠三角电子企业认可度高。如果前面44个省内志愿全滑档——这一所能接住你。不限选科组95,631排位远低于你的82,088，极稳妥。</p>
+</div>
+
+<div class="box" style="margin-top:20px;">
+  <strong>省外不再多列。</strong>长沙理工/西安理工/湖南科大/成都理工等省外工科强校的数据已完整验证，详见 <a href="schools.html">🔬 深度篇</a>。若想追加省外备选，优先看长沙理工大学（电气/交通王牌，物+不限组81,145），或湖南科技大学（物+化组102,685，性价比极高）。
+</div>
+
+<!-- ============ 志愿序号框架 ============ -->
+<h2>八、45个志愿序号框架（省内为主）</h2>
+
+<div class="box">
+  <table style="font-size:16px;">
+    <tr><th style="width:10%;">序号</th><th style="width:12%;">档位</th><th style="width:38%;">院校</th><th style="width:40%;">推荐专业组方向</th></tr>
+    <tr><td>1</td><td><span class="tag-reach">彩票</span></td><td>深圳技术大学</td><td>工科组，差37k名，纯碰运气</td></tr>
+    <tr><td>2-3</td><td><span class="tag-reach">冲刺</span></td><td>深职大（职业本科）</td><td>计算机/电子/电气，大幅扩招</td></tr>
+    <tr><td>4-5</td><td><span class="tag-reach">冲刺</span></td><td>深信大（职业本科）</td><td>信息类为主，扩招33%</td></tr>
+    <tr><td>6-7</td><td><span class="tag-reach">冲刺</span></td><td>佛山大学</td><td>201组（物+化）含计算机/电子/电气</td></tr>
+    <tr><td>8-9</td><td><span class="tag-reach">冲刺</span></td><td>东莞理工学院</td><td>201/202组计算机/软件/电子</td></tr>
+    <tr><td>10-11</td><td><span class="tag-reach">冲刺</span></td><td>广东工业大学 228组</td><td>材料/环境/生物（广州·工科）</td></tr>
+    <tr><td>12-13</td><td><span class="tag-reach">冲刺</span></td><td>广东财经大学 211组</td><td>计算机/软件/AI/大数据（广州）</td></tr>
+    <tr><td>14-15</td><td><span class="tag-reach">冲刺</span></td><td>广东海洋大学（计算机组）</td><td>计算机/软件/物联网</td></tr>
+    <tr><td>16-20</td><td><span class="tag-fit">稳妥</span></td><td>广东技术师范大学</td><td>208组（计算机类）、206组（电子信息）</td></tr>
+    <tr><td>21-24</td><td><span class="tag-fit">稳妥</span></td><td>广东海洋大学（软件/电气组）</td><td>软件工程/物联网/电气</td></tr>
+    <tr><td>25-27</td><td><span class="tag-fit">稳妥</span></td><td>五邑大学</td><td>计算机/软件工程/电子信息</td></tr>
+    <tr><td>28-30</td><td><span class="tag-fit">稳妥</span></td><td>华南农业大学 215组</td><td>水利水电/智能建造（双一流）</td></tr>
+    <tr><td>31-33</td><td><span class="tag-safe">保底</span></td><td>仲恺农业工程学院</td><td>计算机/电气/电子（广州）</td></tr>
+    <tr><td>34-36</td><td><span class="tag-safe">保底</span></td><td>广东第二师范学院</td><td>计算机/电子/软件（广州）</td></tr>
+    <tr><td>37-38</td><td><span class="tag-safe">保底</span></td><td>惠州学院</td><td>电子创新班/电气/计算机</td></tr>
+    <tr><td>39-40</td><td><span class="tag-safe">保底</span></td><td>广东石油化工学院</td><td>电气(卓越班)/计算机</td></tr>
+    <tr><td>41-42</td><td><span class="tag-safe">深保底</span></td><td>广州航海学院 201组</td><td>电气/软件/AI（广州·更名预期）</td></tr>
+    <tr><td>43-44</td><td><span class="tag-safe">深保底</span></td><td>肇庆学院 / 韶关学院</td><td>计算机/电子/电气</td></tr>
+    <tr><td>45</td><td><span class="tag-safe">省外兜底</span></td><td>桂林电子科技大学</td><td><span style="color:#888;">仅此1所省外，极端情况</span></td></tr>
+  </table>
+</div>
+
+<div class="warn">
+  <strong>说明：</strong>
+  <ol>
+    <li>以上框架以<strong>广东省内公办为主</strong>，省外仅1所极端兜底</li>
+    <li>标注"广州"的共7所——广工/广财/广技师/仲恺/广二师/广航海/华农</li>
+    <li>标注"深圳"的共3所——深技大/深职大/深信大</li>
+    <li>所有排位数据经广东省教育考试院官方PDF和各校招生网交叉验证</li>
+    <li>具体专业组需对照2026年《招生专业目录》确认组内专业列表</li>
+  </ol>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>问答篇 · 引导式填报问答 · 2026广东高考</title>
+<style>
+  @page { size: A4; margin: 15mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 18px; line-height: 1.9; color: #222; max-width: 900px; margin: 0 auto; padding: 20px; text-wrap: pretty; word-break: keep-all; overflow-wrap: break-word; orphans: 2; widows: 2; }
+  p, li, td, th, .box, .warn, .q-block, .a-section, .reason { text-wrap: pretty; }
+  nav { background: #1a1a2e; padding: 15px 25px; border-radius: 8px; margin-bottom: 30px; display: flex; flex-wrap: wrap; gap: 10px 20px; }
+  nav a { color: #e0e0e0; text-decoration: none; font-size: 16px; }
+  nav a:hover { color: #fff; border-bottom: 2px solid #ffd700; }
+  nav .current { color: #ffd700; font-weight: bold; }
+  h1 { font-size: 32px; border-left: 6px solid #1a1a2e; padding-left: 14px; margin: 35px 0 20px; }
+  h2 { font-size: 24px; margin: 40px 0 15px; padding: 15px 20px; background: #1a1a2e; color: #ffd700; border-radius: 6px; }
+  .q-block { border: 1px solid #ddd; border-radius: 8px; margin: 20px 0; overflow: hidden; }
+  .q-header { background: #f0f4ff; padding: 18px 22px; }
+  .q-header h3 { margin: 0; color: #1a1a2e; font-size: 20px; }
+  .q-num { display: inline-block; background: #1a1a2e; color: #ffd700; width: 30px; height: 30px; text-align: center; line-height: 30px; border-radius: 15px; margin-right: 10px; font-weight: bold; font-size: 16px; }
+  .q-body { padding: 18px 25px; border-top: 1px solid #e0e0e0; }
+  .a-section { background: #f9fafb; padding: 18px 22px; margin: 12px 0; border-radius: 6px; }
+  .a-section h4 { color: #27ae60; font-size: 17px; margin-bottom: 6px; }
+  .a-section h4::before { content: "✅ 引导方向："; font-weight: normal; }
+  .reason { background: #fef9e7; padding: 12px 18px; border-radius: 4px; margin: 10px 0; font-size: 16px; color: #666; }
+  .reason::before { content: "📌 为什么问这个："; font-weight: bold; color: #333; }
+  .step-guide { background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 25px 30px; border-radius: 10px; margin: 20px 0; }
+  .step-guide h3 { color: #ffd700; margin-top: 0; }
+  .step-guide ol { margin: 10px 0 0 20px; }
+  .step-guide li { margin: 8px 0; color: #ccc; }
+  .box { background: #f0f4ff; padding: 20px 25px; border-radius: 6px; margin: 18px 0; }
+  .warn { background: #fff3cd; border-left: 5px solid #ffc107; padding: 20px 25px; margin: 20px 0; border-radius: 4px; }
+  .judge { background: #e8f8f5; border-left: 5px solid #27ae60; padding: 18px 22px; margin: 15px 0; border-radius: 4px; }
+  .judge::before { content: "🔑 判断题："; font-weight: bold; color: #27ae60; }
+  ol, ul { margin-left: 25px; } li { margin: 6px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0 16px; font-size: 16px; }
+  th { background: #1a1a2e; color: #fff; padding: 8px 10px; text-align: left; white-space: nowrap; }
+  td { padding: 8px 10px; border: 1px solid #ddd; } td:first-child { white-space: nowrap; }
+  @media print {
+    body { font-size: 14px; } nav { display: none; } h1 { font-size: 24px; } h2 { font-size: 20px; }
+    .q-block { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">🏠 总导航</a>
+  <a href="rules.html">📋 规则篇</a>
+  <a href="majors.html">🎓 专业篇</a>
+  <a href="plan.html">📊 方案篇</a>
+  <span class="current">💬 问答篇</span>
+  <a href="schools.html">🔬 深度篇</a>
+</nav>
+
+<h1>💬 问答篇：引导式填报问答手册</h1>
+
+<p style="font-size:16px; color:#666; margin-bottom:10px;">本页全部是<strong>个人判断题</strong>——答案不在数据里，在你自己心里。数据在方案篇和深度篇查，这里的每一个问题都需要你表态。</p>
+<p style="font-size:16px; color:#c0392b; margin-bottom:20px;">建议分四轮对话，每轮确认后再进下一轮。不要一次性抛出。</p>
+
+<div class="step-guide">
+  <h3>🗺️ 四阶段引导路径</h3>
+  <ol>
+    <li><strong>第一轮：排除信息差</strong> —— 确认理解平行志愿、调剂、退档机制（约30分钟）</li>
+    <li><strong>第二轮：锁定自己</strong> —— 兴趣、能力、生活方式偏好（约60分钟·最重要）</li>
+    <li><strong>第三轮：排列组合</strong> —— 冲多少、稳多少、每所学校的底线（约60分钟）</li>
+    <li><strong>第四轮：最后核对</strong> —— 体检、章程、调剂接受度（约30分钟）</li>
+  </ol>
+</div>
+
+<!-- ====== ROUND 1 ====== -->
+<h2>第一轮：排除信息差</h2>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">1</span>"一次投档"——你能用自己的话讲一遍吗？</h3></div>
+  <div class="q-body">
+    <p>假设你第1志愿被投档进去了，但组内专业全满、你没勾调剂。<strong>接下来呢？</strong></p>
+    <div class="a-section"><h4></h4><p>不是"退回第10志愿"——是<strong>本科批次直接结束</strong>，只能等补录。45个志愿不是45次机会，是45扇门，按顺序推，第一扇推开的门就是你进的房间。后面的门不推了。</p></div>
+    <div class="reason">超六成退档是因为这个。让学生用自己的话讲一遍，复述流畅再往下走。</div>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">2</span>调剂只在组内——那"组"里到底有什么？</h3></div>
+  <div class="q-body">
+    <p>调剂不会跨组。物+化工科组的坑全是工科。但——<strong>如果组里有你最不想碰的专业，你还要报这个组吗？</strong></p>
+    <div class="a-section"><h4></h4><p>每个冲刺志愿组，先把组内所有专业列出来。找到最不想去的那个——问自己：如果被调剂到这里，我能接受吗？不能，就删掉这个组，换一个。</p></div>
+    <div class="reason">这个逻辑贯穿整个填报。不是"想不想学计算机"，而是"愿不愿意学化工/材料/环境"。</div>
+  </div>
+</div>
+
+<!-- ====== ROUND 2 ====== -->
+<h2>第二轮：锁定自己（全部是判断题）</h2>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">3</span>你对"写代码"的真实感受？</h3></div>
+  <div class="q-body">
+    <p>不是"计科好就业所以我选它"——是你自己。<strong>电子信息要写嵌入式C，自动化要写PLC，数据科学要写Python。不是说选电气就不用碰代码。</strong></p>
+    <div class="a-section"><h4></h4>
+      <ul>
+        <li>喜欢写——享受让东西跑起来的感觉 → 计算机科学/软件工程</li>
+        <li>能写但不想整天写 → 电子信息/自动化/电气（软硬结合）</li>
+        <li>不喜欢写 → 电气/机械/测绘（更硬件或工程现场）</li>
+        <li>不清楚 → 先选计算机科学（以后转方向门槛最低）</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">4</span>你想象中的未来工作日，哪张图最接近？</h3></div>
+  <div class="q-body">
+    <div class="a-section"><h4></h4>
+      <ul>
+        <li><strong>A. 在深圳科技园写代码，加班但高薪</strong> → 计算机/软件/AI</li>
+        <li><strong>B. 在电网公司朝九晚五，稳定体面</strong> → 电气（南方电网）</li>
+        <li><strong>C. 在工厂/车间调试设备、做产品</strong> → 机械/自动化/智能制造</li>
+        <li><strong>D. 在实验室搞研发，一路读到博士</strong> → AI/集成电路/材料（必须读研）</li>
+        <li><strong>E. 真的没想好</strong> → 计算机科学（最灵活）</li>
+      </ul>
+    </div>
+    <div class="reason">比"你喜欢什么专业"更有效——它指向真实的每日生活。</div>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">5</span>读研——你愿意再读几年？</h3></div>
+  <div class="q-body">
+    <table>
+      <tr><th>态度</th><th>适合的方向</th><th>不适合的方向</th></tr>
+      <tr><td>确定读研</td><td>AI、集成电路、材料——硕士后薪资拉满</td><td>—</td></tr>
+      <tr><td>可能读研</td><td>计算机科学、电子信息、自动化——本科可就业，硕士再升级</td><td>—</td></tr>
+      <tr><td>不想读研</td><td>软件工程（本科就业率最高）、电气（本可进电网）</td><td>AI（本科就业弱）、集成电路（90%岗要硕士）</td></tr>
+    </table>
+    <div class="reason">不想读研就不要死磕AI和集成电路——四年后会很被动。</div>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">6</span>职业本科——你介意吗？</h3></div>
+  <div class="q-body">
+    <p>深圳职业技术大学和深圳信息职业技术大学是你<strong>唯二能碰到的深圳公办本科</strong>（深技大排位够不着）。但它们是职业本科——学位证写"专业学士"，不是传统"学术学士"。</p>
+    <div class="a-section"><h4></h4>
+      <ul>
+        <li><strong>不介意</strong> → 深职大/深信大可以放冲刺档。就业导向强、企业认可度在上升、深圳地缘好。</li>
+        <li><strong>介意</strong> → 直接排除。把冲刺名额给佛山大学/莞工/广财。</li>
+      </ul>
+    </div>
+    <div class="reason">法律上两种学士同等效力（考研考公一样）。但社会认知还在建立中。这是你自己的感受问题，不是对错问题。</div>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">7</span>城市——湛江、茂名真的能接受吗？</h3></div>
+  <div class="q-body">
+    <p>方案篇里有几所很匹配的学校不在珠三角：广东海洋大学（湛江）、广东石油化工学院（茂名）。排位精准但位置偏远。</p>
+    <div class="a-section"><h4></h4>
+      <ul>
+        <li><strong>能接受</strong> → 广东海洋的软件81,668排位几乎等于你的位次，是最准的冲-稳匹配点</li>
+        <li><strong>不能接受</strong> → 直接排除。用广州航海学院/广东二师/惠州学院替换保底</li>
+        <li><strong>勉强接受但不优先</strong> → 放在保底末尾，万一前面全滑档也能接着</li>
+      </ul>
+    </div>
+    <div class="reason">很多人报志愿时觉得"远点没关系"，去了才发现四年实习和回家都是问题。</div>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">8</span>宿舍没有独卫、校区在郊区——你在意吗？</h3></div>
+  <div class="q-body">
+    <p>广技师东校区在广州市中心但是宿舍老旧。佛大仙溪校区4人间湖景但偏。深圳技术大学宿舍最好但排位够不着。广东海洋大学宿舍有空调独卫但湛江。仲恺海珠校区在广州市中心地价但宿舍一般。</p>
+    <div class="a-section"><h4></h4>
+      <ul>
+        <li>宿舍条件排第几位？愿意为了好宿舍放弃地段吗？</li>
+        <li>校区在郊区——每周进城一次能接受吗？</li>
+        <li>公共浴室（无独卫）——能接受吗？（西安科技/武汉科技/山东科技都是公共浴室）</li>
+      </ul>
+    </div>
+    <div class="reason">四年是一个很长的周期。住得舒服不舒服，影响每一天。</div>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">9</span>转专业——你知道每条路有多宽吗？</h3></div>
+  <div class="q-body">
+    <p>不是每所学校都像深技大那样"转专业无限制"。来看你范围内几所的实际情况：</p>
+    <table>
+      <tr><th>学校</th><th>转专业难度</th><th>备注</th></tr>
+      <tr><td>深圳职业技术大学</td><td style="color:#27ae60;">低</td><td>第一学期后专业组内任意转</td></tr>
+      <tr><td>深信大</td><td style="color:#27ae60;">低</td><td>同上</td></tr>
+      <tr><td>佛山大学</td><td style="color:#e67e22;">中</td><td>大一末申请，热门专业竞争大</td></tr>
+      <tr><td>广东工业大学</td><td style="color:#c0392b;">高</td><td>转CS/电子需年级前几名</td></tr>
+      <tr><td>广州大学</td><td style="color:#e67e22;">中</td><td>需第一学期成绩达标</td></tr>
+      <tr><td>五邑大学</td><td style="color:#e67e22;">中</td><td>标准流程，热门专业名额有限</td></tr>
+      <tr><td>仲恺/广二师/广航海</td><td>待确认</td><td>查到再补</td></tr>
+    </table>
+    <div class="reason">如果打定主意"先进去再转"，先把这条路摸清楚——不要默认可以转。</div>
+  </div>
+</div>
+
+<!-- ====== ROUND 3 ====== -->
+<h2>第三轮：排列组合</h2>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">10</span>冲刺——你打算冲几个？</h3></div>
+  <div class="q-body">
+    <p>不要先想数字，先想后果：<strong>冲中了 = 你是组里排位最靠后的那批人，好专业大概率被挑走了。</strong></p>
+    <div class="judge">
+      <p>打开方案篇的冲刺学校列表。对每一所，找到该组里<strong>最冷门的那个专业</strong>——</p>
+      <p>广工228组 → 材料成型/环境工程。你能接受吗？<br>
+      佛大201组 → 光电/化工。你能接受吗？<br>
+      莞工201组 → 机械/材料。你能接受吗？<br>
+      <strong>广财211组 → 全部是CS/软件/AI/大数据/统计/数学。这个组底线最高。</strong><br>
+      华农215组 → 水利水电/智能建造。你能接受吗？</p>
+    </div>
+    <div class="a-section"><h4></h4>
+      <ul>
+        <li>只有能接受组内<strong>最冷专业</strong>的冲刺组，才值得放上去</li>
+        <li>建议冲刺 <strong>10~12个</strong>——你的稳妥区间选择很丰富，不用把所有希望押在冲档</li>
+        <li>广财211组是你范围内唯一一个"组内全是目标方向"的冲刺——优先放</li>
+      </ul>
+    </div>
+    <div class="reason">冲中了但被调剂到不想去的专业=你浪费了稳妥档的机会。</div>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">11</span>学校层次 vs 专业——你站哪边？</h3></div>
+  <div class="q-body">
+    <table>
+      <tr><th>情境</th><th>选项A</th><th style="width:30%;">选项B</th></tr>
+      <tr><td>广工材料 vs 五邑计算机</td><td>广工本部招牌，但学的是材料成型</td><td>五邑名气弱，但学的是王牌计算机</td></tr>
+      <tr><td>华农水利 vs 广技师计算机</td><td>双一流标签，但方向偏工程</td><td>普通师范院校，但计算机方向对口</td></tr>
+      <tr><td>深职大 vs 广财计算机</td><td>深圳+就业强，但职业本科</td><td>广州+传统本科，但财经底色</td></tr>
+      <tr><td>广海软工 vs 广二师计算机</td><td>湛江偏远，但软工排位极准</td><td>广州就近，但名气更弱</td></tr>
+    </table>
+    <div class="reason">这四个选择没有标准答案。但你必须选——志愿表会替你选。</div>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">12</span>稳档——你最有话语权挑专业的那20个，怎么排？</h3></div>
+  <div class="q-body">
+    <p>稳妥档（排位80,000-92,000）是主战场——在这里你不是末位入场的，可以挑专业。</p>
+    <div class="a-section"><h4></h4>
+      <ul>
+        <li>把稳档学校按<strong>你最想去</strong>的顺序排——不要被排位束缚</li>
+        <li>广技师（广州）vs 广海（湛江但软工精准）vs 五邑（江门）——谁排前？</li>
+        <li>同一个学校的不同专业组之间也要排先后——208组（CS）放206组（电子）前面</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">13</span>保底——哪所是你能接受的"最差但肯定有学上"？</h3></div>
+  <div class="q-body">
+    <p>保底不是"反正不会用到"——万一前面全滑档，就是你的去处。</p>
+    <div class="judge">
+      <p>仲恺（广州，更名预期）?<br>广二师（广州，师范工科双轨）?<br>广航海（广州黄埔，更名预期但排位很低很稳）?<br>广东石油化工（茂名，电气卓越班）?<br>惠州学院（近深圳，珠三角）?<br>肇庆学院（够偏但够稳）?</p>
+    </div>
+    <div class="reason">保底志愿是最可能被录取的之一——必须认真选。</div>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">14</span>省外——仅此一所，要还是不要？</h3></div>
+  <div class="q-body">
+    <p>方案篇省外只留了<strong>桂林电子科技大学</strong>（四电四邮之一，排位95,631，极稳）。电子信息特色鲜明，珠三角电子企业认可度高。但桂林不在广东。</p>
+    <div class="a-section"><h4></h4>
+      <ul>
+        <li><strong>要</strong> → 放第45志愿，纯兜底</li>
+        <li><strong>不要</strong> → 用韶关学院或嘉应学院替代，也是纯兜底</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- ====== ROUND 4 ====== -->
+<h2>第四轮：最后核对</h2>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">15</span>体检报告拿出来——有雷吗？</h3></div>
+  <div class="q-body">
+    <ul>
+      <li>色盲/色弱？→ 计算机图形方向、电子、测绘、材料、环境均受限</li>
+      <li>裸眼视力不达标？→ 普通工科不影响，但航海类受限</li>
+      <li>矫正视力超800度？→ 地矿、水利等不宜就读</li>
+    </ul>
+    <div class="a-section"><h4></h4><p>拿着体检单，逐校查《招生章程》。不要假设——必须逐条看。</p></div>
+  </div>
+</div>
+
+<div class="q-block">
+  <div class="q-header"><h3><span class="q-num">16</span>最后过一遍——你的志愿表经得起"最坏情况"吗？</h3></div>
+  <div class="q-body">
+    <ol>
+      <li>前42个全滑档——第43个保底的学校你愿意去吗？</li>
+      <li>冲中了广工228组，被调剂到材料成型——你会后悔吗？</li>
+      <li>被广财211组录取，但分到统计学而不是计算机——能接受吗？</li>
+      <li>如果211组也没中，滑到佛山大学201组，调剂到化工——OK吗？</li>
+    </ol>
+    <div class="reason">这不是悲观——是确认每个你已经填报的组，最差的那个专业也能接受。</div>
+  </div>
+</div>
+
+<!-- ====== CHECKLIST ====== -->
+<h2>📋 最终填报前自查清单</h2>
+<div class="box">
+<ol>
+  <li><input type="checkbox" style="width:18px; height:18px;"> 考生能用自己的话讲清楚"一次投档、退档即结束"</li>
+  <li><input type="checkbox" style="width:18px; height:18px;"> 每个冲刺志愿组，组内<strong>最冷专业</strong>考生都能接受</li>
+  <li><input type="checkbox" style="width:18px; height:18px;"> 职业本科——考生已明确表态（接受/不接受）</li>
+  <li><input type="checkbox" style="width:18px; height:18px;"> 湛江/茂名等偏远城市——考生已明确表态</li>
+  <li><input type="checkbox" style="width:18px; height:18px;"> 第4题的职业方向选择题——考生已给出答案</li>
+  <li><input type="checkbox" style="width:18px; height:18px;"> 读研态度明确，选的专业方向与之匹配</li>
+  <li><input type="checkbox" style="width:18px; height:18px;"> 冲刺组10-12个，稳妥组20-22个，保底组10-13个</li>
+  <li><input type="checkbox" style="width:18px; height:18px;"> 45个志愿全部填满</li>
+  <li><input type="checkbox" style="width:18px; height:18px;"> 体检逐条对照了目标院校《招生章程》</li>
+  <li><input type="checkbox" style="width:18px; height:18px;"> 截止时间（7月4日16:00）前完成确认</li>
+</ol>
+</div>
+
+<div class="warn">
+  <strong>⚠️ 这些问题的答案，不在任何一份数据里。</strong>数据告诉你排位能不能进——但只有你自己知道：进去了，想不想留下。不要让任何人替你回答这些问题。<strong>这是你的志愿，不是家长的志愿。</strong>
+</div>
+
+<p style="text-align:center; margin-top:40px; color:#888; font-size:14px;">
+  — 问答篇完 — 回到 <a href="index.html">🏠 总导航</a> 查看全部文档
+</p>
+
+</body>
+</html>
