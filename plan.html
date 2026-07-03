@@ -6,8 +6,8 @@
 <style>
   @page { size: A4; margin: 15mm; }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 17px; line-height: 1.9; color: #222; max-width: 900px; margin: 0 auto; padding: 20px; text-wrap: pretty; word-break: keep-all; overflow-wrap: break-word; orphans: 2; widows: 2; }
-  p, li, td, th, .box, .warn, .school-card { text-wrap: pretty; }
+  body { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 17px; line-height: 1.9; color: #222; max-width: 900px; margin: 0 auto; padding: 20px; text-wrap: balance; word-break: keep-all; overflow-wrap: break-word; orphans: 2; widows: 2; text-wrap: balance; }
+  p, li, td, th, .box, .warn, .school-card { text-wrap: balance; }
   nav { background: #1a1a2e; padding: 15px 25px; border-radius: 8px; margin-bottom: 30px; display: flex; flex-wrap: wrap; gap: 10px 20px; }
   nav a { color: #e0e0e0; text-decoration: none; font-size: 16px; }
   nav a:hover { color: #fff; border-bottom: 2px solid #ffd700; }
@@ -23,10 +23,11 @@
   .tag-safe  { background: #27ae60; color: #fff; padding: 2px 10px; border-radius: 3px; font-size: 13px; font-weight: bold; }
   .tag-star  { background: #8e44ad; color: #fff; padding: 2px 8px; border-radius: 3px; font-size: 12px; }
   .tag-his  { background: #1a1a2e; color: #ffd700; padding: 2px 8px; border-radius: 3px; font-size: 12px; }
-  table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; font-size: 14px; table-layout: fixed; }
   th { background: #1a1a2e; color: #fff; padding: 8px 10px; text-align: left; white-space: nowrap; font-size: 13px; }
   td { padding: 8px 10px; border: 1px solid #ddd; font-size: 13px; }
   tr:nth-child(even) td { background: #f9f9f9; }
+	  td { word-break: keep-all; overflow-wrap: break-word; }
   .box { background: #f0f4ff; padding: 18px 22px; border-radius: 6px; margin: 18px 0; }
   .warn { background: #fff3cd; border-left: 5px solid #ffc107; padding: 18px 22px; margin: 18px 0; border-radius: 4px; }
   .summary-box { background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 25px 30px; border-radius: 10px; margin: 20px 0; }
@@ -334,7 +335,7 @@
     <tr><td>23</td><td><span class="tag-fit">稳</span></td><td>📍湖南农大(烟草)</td><td>长沙</td><td>烟草</td><td>全国第3·仅5人</td></tr>
     <tr><td>24</td><td><span class="tag-fit">稳</span></td><td>📍西安石油大学</td><td>西安</td><td>海洋油气</td><td>三桶油·就业硬</td></tr>
     <tr><td>25-28</td><td><span class="tag-fit">稳</span></td><td>📍石河子·📍金陵科技·📍中南林·天理209</td><td>多地</td><td>按他填的</td><td>🏆211+南京+长沙+天津</td></tr>
-    <tr><td>29-36</td><td><span class="tag-safe">保</span></td><td>📍河南理工·📍南华·📍兰州交通·📍景德镇陶瓷·📍北华航天·📍郑州轻工·📍河北工程·📍吉首</td><td>多地</td><td>⚠7专业广东未投放·以目录为准</td><td>安全A-·核工程·铁路·陶瓷全国1·航天</td></tr>
+    <tr><td>29-36</td><td><span class="tag-safe">保</span></td><td>📍河南理工·📍南华·📍兰州交通·<br>📍景德镇陶瓷·📍北华航天·<br>📍郑州轻工·📍河北工程·📍吉首</td><td>多地</td><td>⚠7专业广东未投放·以目录为准</td><td>安全A-·核工程·铁路·陶瓷全国1·航天</td></tr>
     <tr><td>37-39</td><td><span class="tag-safe">保</span></td><td>📍惠州学院2组·📍中南林207</td><td>惠州/长沙</td><td>机械电子·材料·机械</td><td>省内+长沙</td></tr>
     <tr><td>40-43</td><td><span class="tag-safe">深保</span></td><td>仲恺·广二师·广航海·广东石油化工</td><td>广州/茂名</td><td>计算机/电气/化工</td><td>省内公办·极度安全</td></tr>
     <tr><td>44-45</td><td><span class="tag-safe">深保</span></td><td>肇庆学院·韶关学院·桂电(省外1所)</td><td>肇庆/韶关/桂林</td><td>计算机/电气/电子</td><td>最底线</td></tr>

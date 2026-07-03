@@ -6,8 +6,8 @@
 <style>
   @page { size: A4; margin: 15mm; }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 17px; line-height: 1.9; color: #222; max-width: 900px; margin: 0 auto; padding: 20px; text-wrap: pretty; word-break: keep-all; overflow-wrap: break-word; orphans: 2; widows: 2; }
-  p, li, td, th { text-wrap: pretty; }
+  body { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 17px; line-height: 1.9; color: #222; max-width: 900px; margin: 0 auto; padding: 20px; text-wrap: balance; word-break: keep-all; overflow-wrap: break-word; orphans: 2; widows: 2; text-wrap: balance; }
+  p, li, td, th { text-wrap: balance; }
   nav { background: #1a1a2e; padding: 15px 25px; border-radius: 8px; margin-bottom: 30px; display: flex; flex-wrap: wrap; gap: 10px 20px; }
   nav a { color: #e0e0e0; text-decoration: none; font-size: 16px; }
   nav a:hover { color: #fff; border-bottom: 2px solid #ffd700; }
@@ -18,10 +18,11 @@
   .summary-box { background: linear-gradient(135deg, #1a1a2e, #16213e); color: #fff; padding: 25px 30px; border-radius: 10px; margin: 20px 0; }
   .summary-box h3 { color: #ffd700; margin-top: 0; }
   .summary-box .big { font-size: 24px; margin: 10px 0; }
-  table { width: 100%; border-collapse: collapse; margin: 10px 0 20px; font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0 20px; font-size: 14px; table-layout: fixed; }
   th { background: #1a1a2e; color: #fff; padding: 8px 8px; text-align: left; white-space: nowrap; font-size: 13px; }
   td { padding: 7px 8px; border: 1px solid #ddd; font-size: 13px; }
   tr:nth-child(even) td { background: #f9f9f9; }
+	  td { word-break: keep-all; overflow-wrap: break-word; }
   .good { background: #e8f5e9 !important; }
   .warn-row { background: #fff3cd !important; }
   .bad { background: #ffeaea !important; }
@@ -155,7 +156,7 @@
   <td>高分子材料与工程</td>
   <td>冲1k</td>
   <td>南昌</td>
-  <td><span class="tag-ok">方向匹配</span> 航空材料+焊接方向全国第4（软科A级）。军工企业校招重点。排位刚好在线上。</td>
+  <td><span class="tag-ok">方向匹配</span> 航空材料+焊接方向全国第4。<br>军工企业校招重点。<br>排位刚好在线上。</td>
 </tr>
 
 <tr class="warn-row">
